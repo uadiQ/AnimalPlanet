@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimalTableCell" rowHeight="100" id="9dn-vE-1BQ" customClass="AnimalCellTableViewCell" customModule="AnimalPlanet" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimalTableCell" rowHeight="100" id="9dn-vE-1BQ" customClass="AnimalTableCell" customModule="AnimalPlanet" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9dn-vE-1BQ" id="9eR-i1-b45">
@@ -36,6 +36,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="jXx-pD-adS" secondAttribute="bottom" id="BDQ-RE-tu7"/>
                                                 <constraint firstItem="jXx-pD-adS" firstAttribute="top" secondItem="9eR-i1-b45" secondAttribute="topMargin" id="dD9-zG-ak6"/>
