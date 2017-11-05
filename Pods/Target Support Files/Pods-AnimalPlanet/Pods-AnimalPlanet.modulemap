@@ -1,0 +1,6 @@
+framework module Pods_AnimalPlanet {
+  umbrella header "Pods-AnimalPlanet-umbrella.h"
+
+  export *
+  module * { export * }
+}
