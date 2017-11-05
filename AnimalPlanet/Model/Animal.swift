@@ -8,35 +8,26 @@
 
 import UIKit
 
-enum animalType
-{
-    case Bird, Fish, Insect, Mammal
-    func description() -> String
-    {
-        switch self
-        {
-        case .Bird:
+enum animalType {
+    case bird, fish, insect, mammal
+    func description() -> String {
+        switch self {
+        case .bird:
             return("Bird")
-        case .Fish:
+        case .fish:
             return("Fish")
-        case .Insect:
+        case .insect:
             return("Insect")
-        case .Mammal:
+        case .mammal:
             return("Mammal")
         }
     }
 }
 
-struct Animal
-{
+struct Animal {
     let subClass: animalType
     let name: String
-    
-    var description:String
-    {
-        get
-        {
-            return(name + ", " + subClass.description())
+    var description: String {
+        return(self.name + ", " + self.subClass.description())
         }
     }
-}

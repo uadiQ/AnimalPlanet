@@ -9,7 +9,7 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-    @IBOutlet weak var detailsLabel: UILabel!
+    @IBOutlet weak private var detailsLabel: UILabel!
     
     var animal: Animal?
 
@@ -18,6 +18,5 @@ class DetailsViewController: UIViewController {
         title = animal?.name
         detailsLabel.text = animal?.description
     }
-
 
 }

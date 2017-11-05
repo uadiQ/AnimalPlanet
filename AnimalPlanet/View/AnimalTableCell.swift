@@ -9,15 +9,14 @@
 import UIKit
 
 class AnimalTableCell: UITableViewCell {
-    @IBOutlet weak var animalLabel: UILabel!
+    @IBOutlet weak private var animalLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         selectionStyle = .none
     }
     
-    func update(incLabel: String)
-    {
+    func update(incLabel: String) {
         animalLabel.text = incLabel
     }
 
