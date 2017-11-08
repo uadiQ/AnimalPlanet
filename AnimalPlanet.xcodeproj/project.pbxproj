@@ -89,7 +89,6 @@
 		1CC1A2791FAF197C00C7BC9E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1C688B931FA93226003420D8 /* DetailsViewController.swift */,
 				1C688B911FA928A2003420D8 /* AnimalTableCell.swift */,
 			);
 			path = View;
@@ -98,6 +97,7 @@
 		1CC1A27A1FAF198300C7BC9E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1C688B931FA93226003420D8 /* DetailsViewController.swift */,
 				1C688B7D1FA924AF003420D8 /* ViewController.swift */,
 				1C688B7F1FA924AF003420D8 /* Main.storyboard */,
 			);

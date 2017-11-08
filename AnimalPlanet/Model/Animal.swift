@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum animalType {
+enum AnimalType {
     case bird, fish, insect, mammal
     func description() -> String {
         switch self {
@@ -25,7 +25,7 @@ enum animalType {
 }
 
 struct Animal {
-    let subClass: animalType
+    let subClass: AnimalType
     let name: String
     var description: String {
         return(self.name + ", " + self.subClass.description())
